@@ -4,8 +4,12 @@
   "description": "A React component for Cloudinary upload widget",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/N1ghtHunter/react-cloudinary-upload-widget.git"
+  },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc", 
     "start": "node example/index.js",
     "test": "echo \"No tests yet\""
   },
