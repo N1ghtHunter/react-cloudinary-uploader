@@ -1,0 +1,39 @@
+# Ignore Node.js generated files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build artifacts
+/dist
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore logs and generated files
+logs/
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore user-specific files
+*.iml
+*.swp
+*.swo
+
+# Ignore TypeScript build files
+/tsconfig.tsbuildinfo
+
+# Ignore package-lock.json for projects using npm
+package-lock.json
+
+# Ignore yarn.lock for projects using Yarn
+yarn.lock
+
+# Ignore .env files
+.env*
+
+# Ignore pnpm-lock.yaml for projects using pnpm
+pnpm-lock.yaml

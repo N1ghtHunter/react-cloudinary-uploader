@@ -1,0 +1,27 @@
+{
+  "name": "react-cloudinary-upload-widget",
+  "version": "1.0.0",
+  "description": "A React component for Cloudinary upload widget",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node example/index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "author": "Mazin Islam",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.5.7",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}
