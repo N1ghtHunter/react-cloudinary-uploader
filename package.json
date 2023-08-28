@@ -1,5 +1,5 @@
 {
-  "name": "react-cloudinary-upload-widget",
+  "name": "react-cloudinary-uploader",
   "version": "1.0.0",
   "description": "A React component for Cloudinary upload widget",
   "main": "dist/index.js",
