@@ -24,6 +24,18 @@ const handleUploadFailure = (error) => {
     console.error("Upload error:", error);
 };
 
+const pictureUploaderOptions = {
+  clientAllowedFormats: ['jpg', 'jpeg', 'png', 'gif'], // allowed file formats
+  resourceType: 'image', // resource type, either 'image' or 'video'
+  cropping: true, // cropping is enabled
+  croppingAspectRatio: 1, // square aspect ratio
+  croppingShowDimensions: true, // show cropping dimensions
+  croppingValidateDimensions: true, // validate image dimensions after cropping
+  maxFileSize: 10000000, // max file size in bytes (10 MB)
+  folder: 'images', // Cloudinary folder to upload to
+  sources: ['local', 'url', 'camera', 'google_drive'], // upload sources, either 'local', 'url', 'camera' or 'google_drive'
+};
+
 const App = () => (
   <div>
     <h1>Cloudinary Upload Widget Example</h1>
@@ -35,6 +47,7 @@ const App = () => (
         buttonText="Choose Image"
         onUploadSuccess={handleUploadSuccess}
         onUploadFailure={handleUploadFailure}
+        options={pictureUploaderOptions}
     />
   </div>
 );
