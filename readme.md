@@ -20,7 +20,7 @@ const handleUploadSuccess = (info) => {
   console.log("Upload success:", info);
 };
 
-const handleUploadError = (error) => {
+const handleUploadFailure = (error) => {
     console.error("Upload error:", error);
 };
 
