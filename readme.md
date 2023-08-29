@@ -14,7 +14,7 @@ npm install react-cloudinary-uploader --save
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CloudinaryUploadWidget from 'react-cloudinary-uploader';
+import { CloudinaryUploadWidget from } 'react-cloudinary-uploader';
 
 const handleUploadSuccess = (info) => {
   console.log("Upload success:", info);
