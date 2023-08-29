@@ -1,13 +1,24 @@
 {
   "name": "react-cloudinary-uploader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React component for Cloudinary upload widget",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "homepage": "https://github.com/N1ghtHunter/react-cloudinary-uploader#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/N1ghtHunter/react-cloudinary-upload-widget.git"
+    "url": "https://github.com/N1ghtHunter/react-cloudinary-uploader.git"
   },
+  "bugs": {
+  "url": "https://github.com/N1ghtHunter/react-cloudinary-uploader/issues"
+},
+  "keywords": [
+  "react",
+  "cloudinary",
+  "upload",
+  "widget"
+],
+
   "scripts": {
     "build": "tsc", 
     "start": "node example/index.js",
@@ -27,5 +38,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2"
+  },
+  "contributors": [
+  {
+    "name": "Mazin Islam",
+    "email": "mazinislam431@gmail.com"
   }
+],
+"engines": {
+  "node": ">=12.0.0",
+  "npm": ">=6.0.0"
+}
 }
