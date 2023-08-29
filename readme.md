@@ -5,7 +5,7 @@ A simple and reusable React component for integrating Cloudinary upload widget i
 ## Installation
 
 ```bash
-npm install react-cloudinary-upload-widget --save
+npm install react-cloudinary-uploader --save
 
 ```
 
@@ -14,7 +14,7 @@ npm install react-cloudinary-upload-widget --save
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CloudinaryUploadWidget from 'react-cloudinary-upload-widget';
+import CloudinaryUploadWidget from 'react-cloudinary-uploader';
 
 const handleUploadSuccess = (info) => {
   console.log("Upload success:", info);
