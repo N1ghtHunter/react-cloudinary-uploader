@@ -4,33 +4,25 @@
   "description": "A React component for Cloudinary upload widget",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "homepage": "https://github.com/N1ghtHunter/react-cloudinary-uploader#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/N1ghtHunter/react-cloudinary-uploader.git"
-  },
-  "bugs": {
-  "url": "https://github.com/N1ghtHunter/react-cloudinary-uploader/issues"
-},
   "keywords": [
-  "react",
-  "cloudinary",
-  "upload",
-  "widget"
-],
-
+    "react",
+    "cloudinary",
+    "upload",
+    "widget"
+  ],
   "scripts": {
-    "build": "tsc", 
+    "build": "tsc",
     "start": "node example/index.js",
     "test": "echo \"No tests yet\""
   },
   "author": "Mazin Islam",
   "license": "MIT",
-"peerDependencies": {
-  "react": ">=16.8.0",
-  "react-dom": ">=16.8.0"
-},
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@types/jest": "^29.5.4",
     "@types/node": "^20.5.7",
     "@types/react": "^18.2.21",
@@ -39,14 +31,28 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2"
   },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "contributors": [
-  {
-    "name": "Mazin Islam",
-    "email": "mazinislam431@gmail.com"
+    {
+      "name": "Mazin Islam",
+      "email": "mazinislam431@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/N1ghtHunter/react-cloudinary-uploader#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/N1ghtHunter/react-cloudinary-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/N1ghtHunter/react-cloudinary-uploader/issues"
   }
-],
-"engines": {
-  "node": ">=12.0.0",
-  "npm": ">=6.0.0"
-}
 }
