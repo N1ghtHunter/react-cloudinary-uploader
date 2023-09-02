@@ -1,5 +1,11 @@
 # react-cloudinary-uploader
 
+## 1.1.1
+
+### Patch Changes
+
+- Added a check to make sure that script isn't loaded multiple times if using more than 1 button
+
 ## 1.1.0
 
 ### Minor Changes
