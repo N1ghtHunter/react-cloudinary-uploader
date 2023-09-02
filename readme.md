@@ -55,6 +55,25 @@ const App = () => (
         onUploadFailure={handleUploadFailure}
         options={pictureUploaderOptions}
     />
+    <CloudinaryUploadWidget
+      cloudName="your-cloud-name"
+      uploadPreset="your-upload-preset"
+      options={pictureUploaderOptions}
+      onUploadSuccess={handleUploadSuccess}
+      onUploadFailure={handleUploadFailure}
+    >
+      <button
+        style={{
+          color: 'white',
+          border: 'none',
+          width: '120px',
+          backgroundColor: '#bbb',
+          borderRadius: '4px',
+          cursor: 'pointer',
+        }}
+        className='custom-class'
+      >Upload Picture</button>
+    </CloudinaryUploadWidget>
   </div>
 );
 
@@ -75,7 +94,7 @@ Replace `your-cloud-name` and `your-upload-preset` with your Cloudinary cloud na
 | buttonText | string | No | Text to display on the upload button. Default is `Upload Image` |
 | buttonClass | string | No | CSS class to apply to the upload button.|
 | buttonStyle | object | No | An object containing CSS styles to apply to the upload button. |
-
+| children | 	React element | No | A React Element to use as the upload button. If this prop is provided, the `buttonText`, `buttonStyle` and `buttonClass` props are ignored. |
 
 ## Contributing
 

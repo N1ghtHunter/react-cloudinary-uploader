@@ -10,6 +10,7 @@ interface CloudinaryUploadWidgetProps {
   buttonStyle?: React.CSSProperties;
   buttonClass?: string;
   buttonText?: string;
+  children?: React.ReactElement;
 }
 
 const CloudinaryUploadWidget: React.FC<CloudinaryUploadWidgetProps> = ({
@@ -21,6 +22,7 @@ const CloudinaryUploadWidget: React.FC<CloudinaryUploadWidgetProps> = ({
   buttonText,
   buttonStyle,
   buttonClass,
+  children,
 }) => {
    const cloudinaryWidget = useRef<any | null>(null);
   const widgetRef = useRef<any | null>(null);
@@ -61,6 +63,13 @@ const CloudinaryUploadWidget: React.FC<CloudinaryUploadWidgetProps> = ({
       document.body.removeChild(script);
     };
   }, [cloudName, uploadPreset, options, onUploadSuccess]);
+  
+    if (children) {
+    return React.cloneElement(children, {
+      onClick: () => widgetRef.current.open()
+    });
+  }
+
   return (
     <button
       onClick={() => widgetRef.current.open()}
