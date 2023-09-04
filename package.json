@@ -12,7 +12,6 @@
   ],
   "scripts": {
     "build": "tsc",
-    "start": "node example/index.js",
     "test": "echo \"No tests yet\"",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,md}\""
   },
