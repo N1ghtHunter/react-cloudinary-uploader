@@ -3,7 +3,7 @@
 A simple and reusable React component for integrating Cloudinary upload widget into your application.
 
 <p align="center">
-  <img src="https://img.shields.io/npm/dw/react-cloudinary-uploader" alt="NPM Downloads">
+  <img src="https://img.shields.io/npm/dt/react-cloudinary-uploader" alt="NPM Downloads">
   <img src="https://img.shields.io/npm/v/react-cloudinary-uploader" alt="NPM Version">
   <img src="https://img.shields.io/npm/l/react-cloudinary-uploader" alt="NPM License">
 </p>
